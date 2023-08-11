@@ -1,0 +1,53 @@
+body{
+ background-image: -webkit-linear-gradient(65deg, red 50%, yellow 50%);
+ font-size: 1.5rem;
+
+}
+.box{
+  border-radius: 5px;
+  margin: auto;
+  width: 50%;
+}
+.title{
+  background-color: purple;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+.itembox{
+  background-color: white;
+}
+
+.item{
+  border-bottom: 2px solid #EAC7C7;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+input[type="checkbox"]{
+  margin-right: 50px;
+}
+button{
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  margin: 5px;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+}
+::Placeholder{
+  opacity: 100%;
+}
+input[type="text"]{
+  border: none;
+  text-align: center;
+}
+input[type="text"]:focus{
+  outline: none;
+}
+input:checked+div{
+  text-decoration: line-through;
+}

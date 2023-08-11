@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="box">
+      <p class="title">
+        <%= theday %>
+      </p>
+
+<div class="itembox">
+
+
+    <%for(var i=0; i < litems.length; i++){%>
+      <div class="item"><input type="checkbox" name="" value="">
+        <div style="display: inline;">
+
+
+          <%= litems[i] %>
+        </div>
+    </div>
+    <% } %>
+    <form action="/" method="post">
+      <input type="text" name="Name" Placeholder="Add item" class="item" value="asdfds">
+      <button type="submit" name="button" value="<%=theday%>">+</button>
+    </form>
+    </div>
+    </div>
+  </body>
+</html>
